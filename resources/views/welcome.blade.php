@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="w-50 d-flex justify-content-center align-items-center" >
+    <div class="w-50" >
         <div class="w-100">
             <h1 class="display-4 text-white mb-3 text-center font-weight-bold">Todo App</h1>
             <h5 class="text-white text-center">What next? Add something to your list</h5>
