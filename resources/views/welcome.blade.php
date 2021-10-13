@@ -1,13 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="d-flex justify-content-center align-items-center" >
-        <div class="w-50">
-            <h1 class="display-4 text-white mt-5 mb-3 text-center">Todo App</h1>
-            <h4 class="text-white text-center">What next? Add something to your list</h4>
+    <div class="w-50 d-flex justify-content-center align-items-center" >
+        <div class="w-100">
+            <h1 class="display-4 text-white mb-3 text-center font-weight-bold">Todo App</h1>
+            <h5 class="text-white text-center">What next? Add something to your list</h5>
             <form action="{{route('todo.store')}}" method="POST">
                 @csrf
-                <div class="input-group mb-3 w-100">
+                <div class="input-group mb-3">
                     <input type="text" name="title"
                            class="form-control form-control-lg"
                             placeholder="Type here..."
@@ -22,7 +22,7 @@
                 </div>
             </form>
             <h4 class="text-white text-center pt-2">My Todo list</h4>
-            <div class="bg-white w-100">
+            <div class="bg-white">
                 @forelse($todos as $todo)
                     <div class="w-100 d-flex justify-content-between align-items-center px-4 py-2">
                         <div class="">

@@ -11,6 +11,9 @@
         <link rel="icon" href="{{asset('images/logo.png')}}">
         {{--  Styles  --}}
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
+        {{--   Fonts     --}}
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
         {{--    Scripts--}}
         <script src="{{url(asset('js/app.js'))}}"></script>
     </head>

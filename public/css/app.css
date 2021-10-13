@@ -10005,8 +10005,13 @@ h3 {
   }
 }
 body {
-  background: #4aaff4;
-  background: radial-gradient(circle, #4aaff4 32%, #4aaff4 100%);
+  width: 100vw;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #282828 0%, #f5fafa 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 @media screen and (max-width: 768px) {
@@ -10014,7 +10019,7 @@ body {
     font-size: 35px !important;
   }
 
-  h4 {
+  h5 {
     font-size: 16px;
   }
 
@@ -10024,6 +10029,5 @@ body {
 
   .w-50 {
     width: 80% !important;
-    margin: auto;
   }
 }
