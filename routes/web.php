@@ -13,5 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [\App\Http\Controllers\TodoController::class , 'index']);
-Route::resource('todo', 'TodoController');
+Route::get('/', [\App\Http\Controllers\TodoController::class, 'index']);
+Route::resource('todo', 'App\Http\Controllers\TodoController');

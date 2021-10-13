@@ -8,8 +8,26 @@
 @import '~bootstrap/scss/bootstrap';
 
 body{
-    width: 100vw;
-    height: 100vh;
     background: rgb(74,175,244);
     background: radial-gradient(circle,rgba(74,175,244,1) 32%, rgba(74,175,244,1) 100%);
+}
+
+
+@media screen and (max-width: 768px) {
+    h1
+    {
+        font-size: 35px !important;
+    }
+    h4
+    {
+        font-size: 16px;
+    }
+   button.btn{
+       font-size: 10px;
+   }
+    .w-50
+    {
+        width: 80% !important;
+        margin: auto;
+    }
 }
